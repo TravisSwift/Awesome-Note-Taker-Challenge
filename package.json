@@ -1,0 +1,23 @@
+{
+  "name": "awesome-note-taker-challenge",
+  "version": "1.0.0",
+  "description": "I WANT to be able to write and save notes\r SO THAT I can organize my thoughts and keep track of tasks I need to complete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravisSwift/Awesome-Note-Taker-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravisSwift/Awesome-Note-Taker-Challenge/issues"
+  },
+  "homepage": "https://github.com/TravisSwift/Awesome-Note-Taker-Challenge#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
