@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/TravisSwift/Awesome-Note-Taker-Challenge#readme",
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "express": "^4.18.0",
+    "fs": "^0.0.1-security",
+    "jest": "^28.0.2"
   }
 }
