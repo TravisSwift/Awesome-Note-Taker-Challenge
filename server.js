@@ -39,13 +39,12 @@ const addNewJSON = (item, res) => {
 }
 
 // add a delete function, 
-
-// Delete a candidate
-app.delete('/api/notes/:id', (req, res) => {
+// app.delete('/api/assets/notes/:id', (req, res) => {
+    app.delete('/api/notes/:id', (req, res) => {
     const sql = `DELETE FROM notes WHERE id = ?`;
     const params = [req.params.id];
   
-    db.query(sql, params, (err, result) => {
+    dbName.query(sql, params, (err, result) => {
       if (err) {
         res.statusMessage(400).json({ error: res.message });
       } else if (!result.affectedRows) {
@@ -70,7 +69,7 @@ app.post('/api/notes', (req, res) => addNewJSON(req.body,res));
 
 // add a delete api route, app.delete deleteJSON  function is name of the delete function 
 
-app.delete('/api/notes', (req, res) => deleteJSON(req.body,res));
+app.delete('/api/notes/:id', (req, res) => deleteJSON(req,res));
 
 
 app.listen(PORT, () => {
