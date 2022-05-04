@@ -1,3 +1,10 @@
+Heroku Link: https://salty-shelf-71006.herokuapp.com/
+github Link: https://github.com/TravisSwift/Awesome-Note-Taker-Challenge
+
+![image](https://user-images.githubusercontent.com/96952755/166780090-94ad1f1b-c74b-42b9-9105-19ae936e6130.png)
+
+
+
 # **User Story
 
 ## **AS A small business owner
