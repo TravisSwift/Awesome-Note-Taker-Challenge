@@ -40,7 +40,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Operaton 
 This app accepts text input to save
+
 This app can be launched locally from a command line using: npm start and viewed in a browser - http://localhost:3001/
+
 This app can be used online at Heroku - https://salty-shelf-71006.herokuapp.com/
 
 
@@ -48,5 +50,6 @@ This app can be used online at Heroku - https://salty-shelf-71006.herokuapp.com/
 ## Takeaway 
 
 Learning to work with routes and NPM modules was the most benificial part of this project. 
+
 
 If I had more time I would update the style sheets with different colors for the backgrounds, add labels to the "save" and "new note" icons, and a visable time stamp on the notes. If the user could choose different background colors for the notes and be able to organize notes by dragging  would be cool additions as well.
